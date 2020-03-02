@@ -5,7 +5,7 @@ html {
     justify-content: center;
     align-items: center;  
     font-family: 'Montserrat', Georgia, Times, 'Times New Roman', serif;
-    background-color: #fff;
+    background-color: #eff0ef;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
     align-items: flex-start;
     width: 70vw;
     min-height: 100%;
-    background-color: hsla(58, 0%, 87%, 0.94);
+    background-color: #fff;
 }
 
 body > div {
@@ -34,7 +34,7 @@ body > div {
     height: 8vh;
     color: #fff;
     width: 100%;
-    border-radius: 1rem 1rem 0 0;
+    /* border-radius: 1rem 1rem 0 0; */
     font-weight: bolder;
 }
 
@@ -57,7 +57,7 @@ body > div {
     align-items: center;
     width: 100%;
     color: #fff;
-    border-radius: 0 0 1rem 1rem;
+    /* border-radius: 0 0 1rem 1rem; */
     background-color: #135477;
 }
 
@@ -81,7 +81,6 @@ button:hover {
     color: #171717;
 }
 
-
 /* ** INDEX ** */
 
     /* MAIN */
@@ -103,12 +102,13 @@ button:hover {
     }
 
     main > section > article > header > h2 {
-        font-size: 1rem;
+        font-size: 1.3rem;
         color: #135477;
     }
 
     main > section > article > p {
-        font-size: .9rem;
+        width: 95%;
+        font-size: .8rem;
         margin: 0;
         padding: .2rem;
     }
@@ -141,7 +141,7 @@ button:hover {
         align-items: center;
         text-align: center;
         background-color: #fff;
-        border-radius: .4rem;
+        /* border-radius: .4rem; */
         margin: .5rem;
         padding: .2rem;
     }
@@ -155,7 +155,7 @@ button:hover {
         font-size: 1rem;
 
     }
-
+    
 
 /* *PRICES* */
 
@@ -233,6 +233,7 @@ button:hover {
     .main-contact input, .main-contact textarea {
         border-style: none;
         border-radius: .2rem;
+        background-color: gray;
         height: 1.5rem;
     }
 

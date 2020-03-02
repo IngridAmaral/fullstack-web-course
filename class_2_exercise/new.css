@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    
+}
+
+.external-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/*HEADER*/
+.header-container {
+    width: 100%;
+    background-color: #f6de28;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-bottom: .4rem solid #333333;
+}
+
+.header-container nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-container a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    padding: .4rem;
+}
+
+.header-container a:hover{
+    color: #222;
+    text-decoration: underline;
+}
+
+/* COURSES */
+.center-page-container {
+    display: flex;
+}
+
+.section-course {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-course article{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #f8f7f7;
+    flex-basis: content;
+    flex: 1;
+    border: .1rem solid grey;
+    -webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.42);
+    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.42);   
+}
+
+.course h2 {
+    margin: 0;
+    text-align: center;
+    border-radius: .2rem;
+    background-color: #fff;
+}
+
+.course p {
+    text-indent: 5%;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    border-style: none;
+    height: 2.8rem;
+    text-transform: uppercase;
+    padding: .2;
+    cursor: pointer;
+    background-color: hsla(66, 64%, 0%, 0.92);
+    color: #fff;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f6de28;
+    color: #222;
+}
+
+/*ADS*/
+.ads {
+    display: flex;    
+}
+
+.ads section {
+    width: 30%;
+    margin: 1rem;
+}
+
+/*FOOTER*/
+.page-footer {
+    background-color: #111;
+    color: #fff;
+    font-weight: 200;
+    height: 3rem;
+    font-size: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/** PRICES **/
+.center-page-prices-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.center-page-prices-container thead {
+    font-weight: bold;
+}
+
+td {
+    padding: .5rem;
+    background-color: #f0f0f0;
+}
+
+.table-prices-header{
+    text-align: center;
+}
+
+/** CONTACT **/
+.center-page-contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+    width: 100%;
+    margin-top: .2rem;
+}
+
+.main-contact form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+}
+
+/** ABOUT **/
+.main-about section{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-about article{
+    width: 50%;
+}
+
+.main-about h1 {
+    font-size: 2rem;
+}
+
+.main-about p {
+    text-indent: 3%;
+}
+
+.crop-img {
+    display: flex;
+    justify-content: center;
+    width:  48%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}
